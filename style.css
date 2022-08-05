@@ -1,0 +1,134 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    background-color: #000000;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+
+body {
+    font-family: 'Lora', 'Poppins', 'Playfair Display' sans-serif;
+}
+
+header {
+    background: linear-gradient(180deg, #000000 0%, rgba(37, 43, 66, 0.01) 88.5%), url(images/Banner.png);
+    width: 100%;
+    height: 800px;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-menu-link {
+    padding-left: 150px;
+}
+
+.menu-link {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B1A79C;
+    text-decoration: none;
+    padding: 0 50px;
+}
+
+.menu-link:hover {
+    color: #FFFFFF;
+}
+
+.menu-button {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    background-color: #E2A23B;
+    border-radius: 5px;
+    width: 190px;
+    height: 50px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.header-content {
+    width: 950px;
+    padding-top: 115px;
+    padding-left: 50px;
+}
+
+.header-content-text {
+    font-family: 'Lora';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.header-content-title {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    color: #E2A23B;
+    margin: 0;
+}
+
+.header-content-description {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #E9DEC3;
+}
+
+.header-button {
+    background-color: #E9DEC3;
+    border-radius: 5px;
+    width: 220px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content-button {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1C1311;
+    text-decoration: none;
+}
+
+.container-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+
+.rectangle {
+    background-color: #15181F;
+    height: 811px;
+}
