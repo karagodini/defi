@@ -1,1 +1,1 @@
-# defi
+# landing for nft collection
